@@ -1,0 +1,24 @@
+This is my submission for assignment 1.10. I added a few things as this was the choose your own assignment. Here are the things I added:
+
+-Ability for pc to switch their 6 pokemons by entering a pokecenter. The pokecenter now stores wild pokemons that have been defeated. However, it only stores 9 pokemons due
+ to it making it difficult to decide which pokemons the user wants. However, the functionality of this works as intended.
+
+-Added in pokebucks. Pc gains pokebucs for each pokemon they kill in their battle against trainers. The pc can then go to the pokemart to purchase pokeballs or potions for
+ 100 pokebucks each.
+
+-When its the pc's turn in the game/map and they press 'L', it will list all their current pokemons (up to 6) as well as their hp respectively.
+
+-Added color to the map (finally) through ncurses.
+
+
+I also created a simple tic tac toe game in c++. Take a look! The executable should be ./ttc
+The tic tac toe game works by asking for a spot to place the mark. The user types a number and enters it for it to be processed. The game works as intended!
+All in all I added a few adjustments that add up. Thanks for your time!
+
+
+IMPORTANT NOTE: For some really annoying reason, my ncurses freezes. This doesnt happen everytime but it can happen. IF it does, the screen like freezes and no input works.
+	  You cant even quit the program unless you exit out of pyrite entirely. Ive tried hours and hours trying to figure out why to no avail. Even GDB could not help:(
+	  If you have an idea as to why, Id love to hear it! Hopefully it doesnt happen tho. Like you dont experience this gut-wrenching bug. If it does, try closing, doing
+	  a make clean, and trying again. It might happen the first time you test, in that case just make clean and try again as it should work then. Thanks!
+
+That is all, thanks!

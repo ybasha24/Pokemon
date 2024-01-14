@@ -1,0 +1,10 @@
+This is my submission for assignment 1.07. All the features specified in the 
+assignment spec works. Here are a few things to keep note:
+- To parse a specific file, a command line argument is needed. For example, to parse the pokemon.csv file, then this must be run: ./assignment7 pokemon
+  This is for all the files that you want to parse.
+- If one of the cells is empty I initialize that cell to INT_MAX and print the empty cell as well, as was expected.
+
+Everything else works as expected. I successfully parse any of the 9 files and put them in their respective structs. I then print out the contents of the specific struct!
+
+
+That is all, thanks!

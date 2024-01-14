@@ -1,0 +1,5 @@
+	10/24 8:00pm - Ported game to c++ by making structs into classes and modifying makefile
+	10/25 10:00am - started traversing through maps
+	10/25 8:00pm - got exits working between maps and got the queue and npcs to be saved when returning to an already generated map
+	10/26 10:00am - implemented fly method
+

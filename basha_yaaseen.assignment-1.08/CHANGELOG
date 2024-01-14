@@ -1,0 +1,2 @@
+	11/7 8:00pm: Implemented Professors parsing as my parsing was giving me unwanted behavior. Created a pokemon class
+	11/8 8:00pm: Initialized Pokemon class with a constructor that generates the pokemon and I create a pokemon when in tall grass

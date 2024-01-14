@@ -1,0 +1,4 @@
+	10/3 @ 5:00- got another queue working and placed npcs on map. Now need to implement logic regarding movement
+	10/3 @ 8:00- gor logic for hikers and rivals
+	10/4 @ 7:00pm- got logic for all other npc, now need to incorporate numtrainers argument
+	10/5 @ 2:00pm- got logic for numtrainers implemented

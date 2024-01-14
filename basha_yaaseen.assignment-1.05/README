@@ -1,0 +1,14 @@
+This is my submission for assignment 1.05. All the features specified in the 
+assignment spec works. Here are a couple of things to take note however:
+-When clicking t to get the trainer list, I output a new window with all the trainers.
+  This means there is no need to scroll up and down the list of trainers since they all fit the screen
+  since I have commented out the ability to add whatever number of trainers you want for now.
+-I have commented the code out for --numtrainers switch. Decided to comment it out so it would be easier for 
+  me to work on this assignment and work on the functionality of movement and whatnot.
+-Everything else works as expected including entering pokemart and pokecenter and battling trainers. To exit 
+  the placeholder for the battle interface, simply press escape key. 
+-After defeating a hiker or rival, I basically have them as a sentry with the defeated hiker and rival no 
+  longer moving. 
+-To quit the game, just type q
+
+That is all, thanks!

@@ -1,0 +1,9 @@
+This is my submission for assignment 1.08. All specifications are met as expected. Some pokemon generated might have 2 of the same moves as I don't check if the same move
+has already been used and honestly it doesn't matter. Other than that, I successfully load pokemon in tall grass with a 10% chance. Thanks!
+
+IMPORTANT NOTE: For some really annoying reason, my ncurses freezes. This doesnt happen everytime but it can happen. IF it does, the screen like freezes and no input works.
+	  You cant even quit the program unless you exit out of pyrite entirely. Ive tried hours and hours trying to figure out why to no avail. Even GDB could not help:(
+	  If you have an idea as to why, Id love to hear it! Hopefully it doesnt happen tho. Like you dont experience this gut-wrenching bug. If it does, try closing, doing
+	  a make clean, and trying again. It might happen the first time you test, in that case just make clean and try again as it should work then. Thanks!
+
+That is all, thanks!

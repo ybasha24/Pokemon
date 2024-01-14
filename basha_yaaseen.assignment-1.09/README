@@ -1,0 +1,18 @@
+This is my submission for assignment 1.09. All expectations are met however there are some important things to note:
+1) My pc always starts with 3 pokemon. This just makes sense to me instead of having them only have one pokemon.
+2) The npc's start with 1 pokemon with a 60% chance of getting another pokemon up to 6 just as the assignment spec.
+3) Battle between my pc and wild pokemon works as expected and intended. However, when looking at the bag, only pokeballs can be used.
+4) Battle between my pc and npc works as expected and intended. However, when looking at the bag, only potions can be used.
+5) During any battle, if all of the pc pokemon are killed, then the game is over. This isn't part of the assignment but I think it is a good implementation and it works.
+   This means that during a battle, if pc has no more pokemon with hp, game ends and I print a message saying that the game is over.
+6) To look and view the bag outside of battle, type B. During battle, type B as well.
+
+All in all, I made some minor adjustments to the game that makes sense to me. I still fulfill all the requirements.
+
+
+IMPORTANT NOTE: For some really annoying reason, my ncurses freezes. This doesnt happen everytime but it can happen. IF it does, the screen like freezes and no input works.
+	  You cant even quit the program unless you exit out of pyrite entirely. Ive tried hours and hours trying to figure out why to no avail. Even GDB could not help:(
+	  If you have an idea as to why, Id love to hear it! Hopefully it doesnt happen tho. Like you dont experience this gut-wrenching bug. If it does, try closing, doing
+	  a make clean, and trying again. It might happen the first time you test, in that case just make clean and try again as it should work then. Thanks!
+
+That is all, thanks!

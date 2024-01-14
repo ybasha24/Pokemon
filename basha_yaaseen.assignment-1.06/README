@@ -1,0 +1,16 @@
+This is my submission for assignment 1.06. All the features specified in the 
+assignment spec works. Here are a couple of things to take note however:
+-I took the functionality of going through exits diagonally. I just didnt want that functionality in the game as it just doesnt make
+   sense to have that functionality. Instead, only way pc can go through exits is going straight through it by going directly left, right, up or down on an exit.
+-For my implementation for fly, you click f. Then as I state on the terminal, you enter two ints with a space in between each int and pressing enter after the second enter.
+     Then you "fly" to that map.
+-I will list my borders(the 4 corners of the world) externally and then internally as well. The top left corner is (-200, -200) externally and (0,0) internally. The top right corner
+   is (200, -200) externally and (400, 0) internally since going north is y-1. The bottom left corner is (-200, 200) externally and (0, 400) internally since going south is y+1.
+   The bottom right corner is (200, 200) externally and (400, 400) internally.
+
+IMPORTANT NOTE: For some really annoying reason, my ncurses freezes. This doesnt happen everytime but it can happen. IF it does, the screen like freezes and no input works.
+	  You cant even quit the program unless you exit out of pyrite entirely. Ive tried hours and hours trying to figure out why to no avail. Even GDB could not help:(
+	  If you have an idea as to why, Id love to hear it! Hopefully it doesnt happen tho. Like you dont experience this gut-wrenching bug. If it does, try closing, doing
+	  a make clean, and trying again. It might happen the first time you test, in that case just make clean and try again as it should work then. Thanks!
+
+That is all, thanks!
